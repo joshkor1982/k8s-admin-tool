@@ -1,4 +1,23 @@
 #!/bin/bash
+#===================================================================================
+#
+# FILE: k8s-admin-tool.sh
+#
+# USAGE: k8s-admin-tool.sh
+#
+# DESCRIPTION: Basic troubleshooting tool for Kubernetes Clusters.
+#
+# OPTIONS: see function ’usage’ below
+# REQUIREMENTS: ---
+# BUGS: ---
+# NOTES: ---
+# AUTHOR: Joshua Millett, Austin, TX
+# COMPANY: Personal Project
+# VERSION: 1.0
+# CREATED: 1.25.2022
+# REVISION: ---
+#===================================================================================
+
 set -euo pipefail
 export TERM=xterm-256color
 cy=$(tput setaf 118)
